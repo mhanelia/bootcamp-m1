@@ -43,7 +43,7 @@ jobs:
       # Publicar o relatório HTML 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
-        whit: 
+        with: 
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           BRANCH: gh-pages
           FOLDER: cypress/reports
